@@ -1,0 +1,101 @@
+/*
+Cóigo redferente a folha de estilo home.html
+*/
+.body {
+    display: flex;
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col1 {
+    padding: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+
+}
+
+.row1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+
+}
+
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/*
+Classes comuns 
+*/
+.rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.navbar {
+
+    margin-bottom: 100px;
+   
+}
+
+/*
+Cóigo redferente a folha de estilo receitas.html
+ */
+
+.containerReceitas {
+
+
+    display: flex;
+    padding-right: 200px;
+    padding-left: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.colRec1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+
+
+}
+
+.col {
+    text-align: left;
+
+    background-color: palegoldenrod;
+    box-sizing: border-box;
+    border: solid none;
+    margin: 1px;
+    font-weight: bold;
+
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 18pt;
+
+}
+
+/*
+Código referente a folha de estilo de cadastro.html
+*/
+
+.container-fluid {
+    overflow-y: auto;
+}
